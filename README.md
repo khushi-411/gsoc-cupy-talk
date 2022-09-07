@@ -1,5 +1,7 @@
 # Google Summer of Code 2022, CuPy, Talk
 
+[Link to slides](https://khushi-411.github.io/gsoc-cupy-talk/)
+
 ### Instructions for Building Slides
 
 1. Install [hugo](https://gohugo.io/getting-started/installing/)
