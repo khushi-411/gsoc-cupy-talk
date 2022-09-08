@@ -1,11 +1,16 @@
-<style>
-#logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 150px;
-}
-</style>
+{{ if .Site.Params.useMath | default false }}
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+            fontCache: 'global'
+        }
+    };
+</script>
+<script type="text/javascript" id="MathJax-script" async src="{{ .Site.BaseURL }}/javascript/tex-svg.js" />
+</script>
+{{ end }}
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
-<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+<link rel="shortcut icon" href="{{ .Site.BaseURL }}/favicon.ico">
