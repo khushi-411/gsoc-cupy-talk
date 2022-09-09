@@ -16,8 +16,11 @@ math in your slides.
 
 ### Acknowledgements
 
-The slides here are highly fascinated by
-[Thomas](https://github.com/thomasjpfan) work.
+Shout out to [Masayuki Takagi](https://github.com/takagi) for helping
+me configure the site!! Thank you very much!
+
+The slides here are fascinated by
+[Thomas J. Fan](https://github.com/thomasjpfan) work.
 His slides are available at
 [https://github.com/thomasjpfan/slides-template-hugo](https://github.com/thomasjpfan/slides-template-hugo).
 Thanks, Thomas, for your awesome work!
