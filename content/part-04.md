@@ -80,9 +80,9 @@ Paper: https://people.maths.ox.ac.uk/trefethen/barycentric.pdf
 
 ---
 
-- [x] Added **`KroghInterpolator`** class: contructs polynomial and calculate derivatives. It supports the following methods:
+- [x] Added **`KroghInterpolator`** class: constructs polynomial and calculate derivatives. It supports the following methods:
   - [x] *`_evaluate`*: evaluates polynomial
-  - [x] *`_evaluate_derivatives`*: evaluates the derivatives of the polynimial
+  - [x] *`_evaluate_derivatives`*: evaluates the derivatives of the polynomial
 
 - [x] Added **`krogh_interpolate`** wrapper 
 

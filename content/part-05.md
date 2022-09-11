@@ -72,7 +72,7 @@ _log_softmax_kernel = cp._core.ReductionKernel(
 
 - Compiles into a single kernel instead of series of kernels
 - Experimental implementation to *fuse* `softmax` function
-- Drawback here: does not generate competitive codes therefore switched to normal implementation
+- Drawback here: does not generate competitive codes, therefore, switched to the normal implementation
 
 ```python{1-9}
 def make_expander(shape, axis):
