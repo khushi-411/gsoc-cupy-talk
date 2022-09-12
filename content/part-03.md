@@ -5,7 +5,7 @@ weight = 3
 <!-- Start vertical slides -->
 {{% section %}}
 
-# Post-GSoC Time
+# Pre-GSoC Time
 
 Enhanced CuPy's coverage of NumPy functions. My contribution's:
 
